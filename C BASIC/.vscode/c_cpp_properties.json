@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/PC/c_library/cgen",
+                "C:/Users/PC/c_library/c-basic/baitap",
+                "C:/Users/PC/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/x86_64-linux-gnu",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/parallel"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/TDM-GCC-64/bin/gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

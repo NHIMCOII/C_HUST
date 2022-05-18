@@ -1,0 +1,4 @@
+3
+5 aaa bbb ccc aaa ccc
+6 abc cba acb acb bac bbb
+3 aaabb bbbaa bbbaa

@@ -1,0 +1,5 @@
+aaa bbb ccc aaa ccc
+abc cba acb acb bac bbb
+aaabb bbbaa bbbaa
+abcd dda bbc
+bb aa cd aa dcb

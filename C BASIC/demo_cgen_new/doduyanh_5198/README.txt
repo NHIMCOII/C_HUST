@@ -1,0 +1,1 @@
+gcc -o prog main.c /cgen/all.c -I /cgen

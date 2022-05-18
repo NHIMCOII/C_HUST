@@ -1,0 +1,29 @@
+1 - #include<stdio.h>
+2 - #include<string.h>
+3 - int main(){
+4 -     FILE *fi=fopen("count_line.c","r");
+5 -     FILE *fo=fopen("output.txt","w");
+6 -     int count=1;
+7 -     if(!fi){
+8 -         printf("Error1\n");
+9 -         return 1;
+10 -     }
+11 - 
+12 -     if(!fo){
+13 -         printf("Error2");
+14 -         return 1;
+15 -     }
+16 - 
+17 -     char c[100];
+18 -     while((fgets(c,100,fi))!=NULL){
+19 -         fprintf(fo,"%d - %s",count,c);
+20 -         if(strstr(c,"\n")){
+21 -             count++;
+22 -         }
+23 -     }
+24 -     fprintf(fo,"\nLine = %d",count);
+25 -     fclose(fi);
+26 -     fclose(fo);
+27 -     return 0;
+28 - }
+Line = 28

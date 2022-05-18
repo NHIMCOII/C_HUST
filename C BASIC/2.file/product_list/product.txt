@@ -1,0 +1,2 @@
+1 Samsung_Television_4K 20000000
+2 Apple_MacBook_2020 18560000
